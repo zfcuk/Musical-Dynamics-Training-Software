@@ -1,10 +1,12 @@
 import logging
 import time
 from tkinter import *
+import numpy
 # from constants.py import midi_dynamics
 # from constants import dynamics_color
 # from constants import midikeyDict
 from constants import *
+import rtmidi       # IMPT: go to python.exe fodler adn type "pip "
 from rtmidi.midiutil import open_midiinput
 
 # ROOT WINDOW
